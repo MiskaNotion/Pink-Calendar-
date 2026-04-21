@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minimal Calendar</title>
+<title>Blush Calendar</title>
 
 <style>
   html, body {
     margin: 0;
     padding: 0;
     background: transparent;
-    font-family: Inter, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   .calendar {
@@ -18,14 +18,14 @@
     padding: 16px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: inset 0 0 0 1px #ECEDEC;
+    box-shadow: inset 0 0 0 1px #ECECEC;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #F3F4F3;
+    background: #F2E8EC; /* soft blush pink */
     padding: 10px 14px;
     border-radius: 12px;
     margin-bottom: 12px;
@@ -68,11 +68,11 @@
   }
 
   .muted {
-    color: #CFCFCF;
+    color: #D6C8CD; /* soft faded pink-grey */
   }
 
   .today {
-    background: #ECEDEC;
+    background: #E8D7DD; /* slightly deeper blush */
     font-weight: 600;
   }
 </style>
